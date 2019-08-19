@@ -15,7 +15,7 @@
     position: relative;
 }
 .xiao-box img{
-    width: 300px;
+    width: 500px;
     display: block;
 }
 
@@ -30,8 +30,8 @@
     display: block;
 }
 .big-box{
-    width:500px;
-    height:255px;
+    width:250px;
+    height:150px;
     border: 1px solid #ccc; 
     position: absolute;
     top: 0;
@@ -40,6 +40,7 @@
     overflow: hidden;
 }
 .big-box img{
+    
     position: absolute;
     z-index: 5px;
     
@@ -48,8 +49,8 @@
 .mark{
     position: absolute;
         display: block;
-        width: 300px;
-        height: 160px;
+        width: 500px;
+        height: 268px;
         background-color: #fff;
         filter: alpha(opacity=0);/*过滤器，目前只有少数浏览器支持*/
         opacity: 0;
