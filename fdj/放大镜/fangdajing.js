@@ -4,7 +4,7 @@ window.onload = function(){
     let bigbox = document.querySelector(".big-box")
     let fangdajing = document.querySelector(".fangdajing")
     let mark = document.querySelector(".mark")
-    let img = bigbox.getElementsByTagName("img")[0];
+    let img = bigbox.getElementsByTagName("img")[0]
 
     xiaobox.onmouseover = function(){
         fangdajing.style.display = "block"
@@ -27,7 +27,8 @@ window.onload = function(){
         if(left>xiaobox.offsetWidth-fangdajing.offsetWidth)
                 left=xiaobox.offsetWidth-fangdajing.offsetWidth;
         if(top>xiaobox.offsetHeight-fangdajing.offsetHeight)
-                top=xiaobox.offsetHeight-fangdajing.offsetHeight;
+                top=xiaobox.offsetHeight-fangdajing.offsetHeight-4;
+                // console.log(top)
 
         fangdajing.style.left = left+"px";
         fangdajing.style.top = top+"px"
